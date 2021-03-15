@@ -1,0 +1,29 @@
+header{
+    background-color: #f63232;
+    position: fixed;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    background-color: #feb614;
+    color: white;
+    padding: 30px;
+     position: absolute; /*giving something aboslute permission removes it's place in the flow of things   */
+     left: 0px;
+     top: 30%;
+}
+.banner h2{
+    font-size: 74px;
+    
+}
+.banner h2 span{
+    font-size: 1.3em;
+}
