@@ -26,15 +26,18 @@ header h1{
     max-width: 100%;
 }
 .banner .welcome{
-    background-color: #feb614;
-    color: white;
+    background-color: #fedb14;
+    border-radius: 25px;
+    color: rgb(255, 0, 0);
     padding: 30px;
-     position: absolute; /*giving something aboslute permission removes it's place in the flow of things   */
-     left: 0px;
-     top: 30%;
+    position: absolute; /*giving something aboslute permission removes it's place in the flow of things   */
+    left: 0px;
+    top: 30%;
+    
 }
 .banner h2{
     font-size: 74px;
+    font-family: cursive;
     
 }
 .banner h2 span{
@@ -156,6 +159,7 @@ section.join p::selection{
     color: white;
 }
  p::selection{
-     
+    background: grey;
+    color: rgb(163, 27, 27);
  }
 
