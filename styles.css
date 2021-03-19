@@ -27,17 +27,18 @@ header h1{
 }
 .banner .welcome{
     background-color: #fedb14;
+    border: #f63232 10px solid;
     border-radius: 25px;
     color: rgb(255, 0, 0);
-    padding: 30px;
+    padding: 20px;
     position: absolute; /*giving something aboslute permission removes it's place in the flow of things   */
     left: 0px;
     top: 30%;
     
 }
 .banner h2{
-    font-size: 74px;
-    font-family: cursive;
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .banner h2 span{
@@ -162,4 +163,53 @@ section.join p::selection{
     background: grey;
     color: rgb(163, 27, 27);
  }
+@media screen and (max-width: 1400px){
 
+    .banner .welcome h2{
+       font-size: 30px;
+}
+
+@media screen and (max-width: 900px){
+
+    .banner .welcome h2{
+       font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+
+    .banner .welcome{
+    position: relative;
+    text-align: center;
+    }    
+
+    .banner .welcome br{
+        display: none;
+    }
+    
+    .banner .welcome span{
+        font-size: 1ems;
+    }
+
+    .images li{
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 1400px){
+    nav li{
+        font-size:20px;
+        display:block;
+        width: 100%;
+        margin: 12px;
+    }
+    header{
+        position: relative;
+    }
+    nav{
+        top: 0;
+    }
+}
